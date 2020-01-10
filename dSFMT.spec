@@ -111,7 +111,7 @@ building applications that use %{name}.
 
 %prep
 %setup -q -n %{name}-src-%{version}
-%apply_patches
+%autopatch -p1
 
 # pkgconfig
 #   standard
