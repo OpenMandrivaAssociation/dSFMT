@@ -12,7 +12,7 @@ Version:	%{major}.%{minor}.%{mini}
 Release:	0
 Group:		System/Libraries
 License:	BSD
-Url:		http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/index.html#%{name}
+Url:		https://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/index.html#%{name}
 Source0:	http://www.math.sci.hiroshima-u.ac.jp/~m-mat/MT/SFMT/%{name}-src-%{version}.tar.gz
 Patch0:		%{name}-2.2.3-makefile.patch
 # The following patches are requied by Julia
