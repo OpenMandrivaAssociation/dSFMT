@@ -20,6 +20,7 @@ Patch0:		%{name}-2.2.3-makefile.patch
 Patch100:	dSFMT.h.patch
 Patch101:	dSFMT.c.patch
 
+BuildRequires:	make
 %description
 The purpose of dSFMT is to speed up the generation by avoiding the expensive
 conversion of integer to double (floating point). dSFMT directly generates
